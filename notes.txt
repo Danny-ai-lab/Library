@@ -1,0 +1,1 @@
+for email its <a href=mailto:email><a/>
