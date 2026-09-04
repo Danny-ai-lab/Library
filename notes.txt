@@ -1,1 +1,14 @@
 for email its <a href=mailto:email><a/>
+
+for audio
+<audio controls>
+<source src="" type= audio/mp3\
+
+for table
+<table border="1">
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>....
+    </tr>
+</table>

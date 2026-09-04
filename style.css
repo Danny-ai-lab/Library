@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overscroll-behavior: none;
 }
 
 .head{
@@ -13,6 +15,18 @@
     color: white;
 }
 
+.head img{
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+}
+
+.head p, .head a{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .head a{
     text-decoration: none;
     color: white;
@@ -22,12 +36,34 @@
     color: red;
 }
 
+body{
+    font-family: playfair display, serif;
+    background-color: #f3eadc;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px, 40px;
+    padding: 30px;
     background-color: transparent;
+}
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.navbar a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar a img{
+    width: 25px;
+    height: 25px;
 }
 
 .logo a{
@@ -53,4 +89,115 @@
 
 .navbar a:hover{
     color: red;
+}
+
+.luffy{
+    color: rgb(223, 197, 51);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.flash{
+    padding: 16px;
+    border: none;
+    background-color: #212f22;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.flash:hover{
+    background-color: #41804d;
+}
+
+.batsy{
+    padding: 15px;
+    border: 2px solid #212f22;
+    background-color: transparent;
+    color: #212f22;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.batsy:hover{
+    background-color: #212f22;
+    color: white;
+}
+
+.read{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+    background: linear-gradient(to right, #f0efc4 0%, #e0dfaf 40%, rgb(251, 248, 243, 0) 75%),
+    url("images/Fairy\ lib.jpg") no-repeat center right/cover;
+}
+
+.read h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.read p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 40px);
+    max-width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 8px, 12px;
+    margin: 8px, 0, 0;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.items:not(:last-child){
+    border-right: 1px solid #ccc;
+}
+
+.text h4, .text p{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    margin: 0px, auto;
+    border-radius: 12px;
+    max-width: none;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.items{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
