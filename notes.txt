@@ -12,3 +12,15 @@ for table
         <th></th>....
     </tr>
 </table>
+
+scroll is used for if an element overflows
+{
+    overflow: auto;
+    overflow: scroll;
+    overflow: hidden;
+}
+subscript - go down <sub> </sub>
+superscript - go up <sup> </sup>
+strikethrough code <del> </del>
+
+blockquote is used for siting sth from a diff source <blockquote> </blockquote>

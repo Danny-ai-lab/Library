@@ -38,6 +38,10 @@
 body{
     font-family: playfair display, serif;
     background-color: #f3eadc;
+    /*background-image: url(images/books.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;*/
 }
 
 .navbar{
@@ -276,7 +280,7 @@ body{
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-     cursor: pointer;
+    cursor: pointer;
     transition: transform 0.2s ease;
 }
 
@@ -484,4 +488,39 @@ body{
 
 .txt h4, .txt p{
     margin-bottom: 15px;
+}
+
+table{
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+td{
+    background-color: white;
+}
+
+th{
+    background-color: #212f22;
+    color: white;
+}
+
+td, th{
+    padding: 10px;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.butt{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.butt:hover{
+    background-color: white;
+    color: black;
 }
